@@ -1,0 +1,13 @@
+{
+  "name": "消化器 予想問題（カテゴリーⅠ形式）",
+  "short_name": "消化器クイズ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1a18",
+  "theme_color": "#185FA5",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
