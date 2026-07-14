@@ -1,5 +1,5 @@
 // Service Worker — オフライン動作用（cache-first）
-const CACHE = 'kokushi-shokaki-v2';
+const CACHE = 'kokushi-shokaki-v3';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {
