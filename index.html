@@ -167,8 +167,9 @@ function renderStart(){
         <button data-o="ランダム" class="${orderChoice==='ランダム'?'on':''}">ランダム</button>
       </div>
     </div>
-    <div style="text-align:center;margin-top:4px">
-      <a href="print.html" style="font-size:13px;color:var(--accent);text-decoration:none">全${QUESTIONS.length}問を印刷・PDFで見る →</a>
+    <div style="text-align:center;margin-top:6px;display:flex;flex-direction:column;gap:6px">
+      <a href="print.html" style="font-size:13px;color:var(--accent);text-decoration:none">全${QUESTIONS.length}問（問題＋解説つき）を印刷・PDF →</a>
+      <a href="exam.html" style="font-size:13px;color:var(--accent);text-decoration:none">試験形式（問題／解答一覧が別）を印刷・PDF →</a>
     </div>`;
   footer.innerHTML = `<button class="btn" id="startBtn">演習をはじめる</button>`;
   document.getElementById('segGroup').onclick = e=>{
